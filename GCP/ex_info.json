@@ -1,0 +1,25 @@
+{
+  "generate": {
+    "cloud_platform": "gcp",
+    "auth": {
+      "credentials_file": "credentials.json",
+      "region": "asia-northeast3-a"
+    },
+    "vm_info": {
+      "vm_name": "test-vm",
+      "machine_type": "e2-medium",
+      "OS": "centos-cloud",
+      "OS_version": "centos-7",
+      "cpu_count": "",
+      "memory_size": "",
+      "username": "zcon",
+      "ssh_authorized_keys": "test-loginkey.pub",
+      "volume": [
+        50
+      ],
+      "userdata": "userdata.sh",
+      "tags": "test",
+      "firewall_rule": "tcp:4001,tcp:5001"
+    }
+  }
+}

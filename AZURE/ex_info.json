@@ -1,0 +1,24 @@
+{
+  "generate": {
+    "cloud_platform": "azure",
+    "auth": {
+      "subscription_id": "*************",
+      "tenant_id": "*************",
+      "app_id": "*************",
+      "app_pwd": "*************",
+      "region": "koreasouth"
+    },
+    "vm_info": {
+      "vm_name": "test-vm",
+      "OS": "CentOS",
+      "OS_version": "7.6",
+      "cpu_count": 1,
+      "memory_size": 2,
+      "machine_type": "Standard_A1_v2",
+      "volume": [50],
+      "username": "testuser",
+      "password": "testp@ssw0rd",
+      "userdata": "userdata.sh"
+    }
+  }
+}

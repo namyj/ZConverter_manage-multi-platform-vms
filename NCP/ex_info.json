@@ -1,0 +1,22 @@
+{
+  "generate": {
+    "cloud_platform": "ncp",
+    "auth": {
+      "profile": "test",
+      "access_key": "*************",
+      "secret_access_key": "*************",
+      "region": "KR"
+    },
+    "vm_info": {
+      "vm_name": "test-vm",
+      "OS": "ubuntu",
+      "OS_version": "18.04",
+      "cpu_count": "2",
+      "memory_size": "4",
+      "loginkey": "test-loginkey",
+      "subnet_id": "47216",
+      "volume": [10],
+      "userdata": "init-script"
+    }
+  }
+}

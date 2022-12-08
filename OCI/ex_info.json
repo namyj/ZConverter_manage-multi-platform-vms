@@ -1,0 +1,25 @@
+{
+  "generate": {
+    "cloud_platform": "oci",
+    "auth": {
+      "credentials_file": "oci_config",
+      "profile": "DEFAULT",
+      "configkey_file": "oci_config.pem",
+      "region": "ap-seoul-1",
+      "domain": "vgdH:AP-SEOUL-1-AD-1"
+    },
+    "vm_info": {
+      "vm_name": "test-vm",
+      "OS": "Canonical Ubuntu",
+      "OS_version": "18.04",
+      "cpu_count": 1,
+      "memory_size": 4,
+      "machine_type": "VM.Standard.E4.Flex",
+      "compartment_id": "ocid1.tenancy.oc1..*************",
+      "subnet_id": "ocid1.subnet.oc1.ap-seoul-1...*************",
+      "loginkey": "test-loginkey.pub",
+      "volume": [50],
+      "userdata": "userdata.sh"
+    }
+  }
+}

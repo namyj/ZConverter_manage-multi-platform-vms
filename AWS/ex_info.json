@@ -1,0 +1,26 @@
+{
+  "generate": {
+    "cloud_platform": "aws",
+    "auth": {
+      "profile": "test",
+      "access_key": "*************",
+      "secret_access_key": "*************",
+      "region": "ap-northeast-2",
+      "login_region": "ap-northeast-2"
+    },
+    "vm_info": {
+      "vm_name": "test-vm",
+      "machine_type": "t2.medium",
+      "image_id": "ami-*************",
+      "OS": "centos",
+      "OS_version": "7",
+      "cpu_count": 2,
+      "cpu_flexible": 0,
+      "memory_size": 4,
+      "security_group_id": "sg-*************",
+      "loginkey": "test-loginkey",
+      "volume": [ 50 ],
+      "userdata": "userdata.sh"
+    }
+  }
+}
