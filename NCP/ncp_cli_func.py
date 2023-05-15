@@ -171,11 +171,11 @@ def getSubnetList():
         - subnet_id <- "subnetNo"
     [
         {
-        "subnetNo": "57974",
-        "vpcNo": "27074",
+        "subnetNo": "*****",
+        "vpcNo": "*****",
         "zoneCode": "KR-2",
         "subnetName": "js-subnet",
-        "subnet": "192.168.0.0/24",
+        "subnet": "***.***.***.***/24",
         "subnetStatus": {
             "code": "RUN",
             "codeName": "run"
@@ -189,7 +189,7 @@ def getSubnetList():
             "code": "GEN",
             "codeName": "General"
         },
-        "networkAclNo": "41773"
+        "networkAclNo": "*****"
         },
         ...
     ]
@@ -212,7 +212,7 @@ def getInitScriptList():
     [
         {
             "initScriptNo": "22244",
-            "initScriptName": "lin-yj",
+            "initScriptName": "lin-init-yj",
             "createDate": "2022-10-05T16:07:43+0900",
             "initScriptDescription": "",
             "initScriptContent": "",

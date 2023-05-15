@@ -212,7 +212,7 @@ def check_security_group(profile, sg_name):
 def create_security_group(profile, vm_name, sg_name):
     """
     - If do not specified VCP, Security Group will be created within default VPC
-    - source : "218.145.116.162/32" , tcp : 22 / 3389 / 3306 
+    - source : "***.***.***.***/32" , tcp : 22 / 3389 / 3306
     - source : "0.0.0.0/0" , tcp : 80 / 111 / 139 / 443-445 / 2049 / 3000 / 3306 / 9051-9054 / 50000-50005 / 53306 / 4001 / 5001, ICMP - all
     """
     try:

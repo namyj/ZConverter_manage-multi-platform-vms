@@ -12,7 +12,7 @@
       "OS_version": "centos-7",
       "cpu_count": "",
       "memory_size": "",
-      "username": "zcon",
+      "username": "testuser",
       "ssh_authorized_keys": "test-loginkey.pub",
       "volume": [
         50

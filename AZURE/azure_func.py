@@ -10,7 +10,7 @@ PLATFORM = platform.system()
 lock = threading.Lock()
 
 
-PRIVATE_SOURCE_IP = "218.145.116.162/32"
+PRIVATE_SOURCE_IP = "***.***.***.***/32" # must change to your private IP
 PRIVATE_IN_PORTS = "22 3389 3306"
 NSG_SOURCE_IP = "*" # ALL
 NSG_IN_PORTS = "80 111 139 443 445 2049 3000 4001 5001 9051 9052 9053 9054 50001 50002 50005 53306"

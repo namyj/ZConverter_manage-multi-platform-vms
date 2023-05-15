@@ -117,22 +117,22 @@ def deleteVcn(config, profile, vcn_id):
         exit("error: {}".format())     
 
 
+# 실행부
 os.environ['OCI_CLI_SUPPRESS_FILE_PERMISSIONS_WARNING'] = "True"
 
-config = "/ZCM/back/router/VMProgram/OCI/1665991748421__oci_config"
+config = "1665991748421__oci_config" # full path of config file
 profile = "default" 
 region = "ap-seoul-1"
 AD = "vgdH:AP-SEOUL-1-AD-1" 
-compartment_id = "입력" 
-instance_id = "입력"
+compartment_id = "******************************************" # compartment Id
+instance_id = "******************************************" # isntance Id
 
 # # 1. 네트워크 리소스 정보 추출
 vcn_info = getVcnInfo(config, profile, region, AD, compartment_id, instance_id)
 print(vcn_info)
 
 # # 2. 인스턴스 삭제
-# result = teminate_instance(config, profile, instance_id)
-teminate_instance(config, profile, instance_id)
+result = teminate_instance(config, profile, instance_id)
 result = "success"
 
 # 3. 네트워크 리소스 삭제

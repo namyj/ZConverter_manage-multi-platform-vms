@@ -103,10 +103,10 @@ def getCompartmentList(config, profile):
     - Compartment Name <- "name"
     [
         {
-            "compartment-id": "ocid1.tenancy.oc1..aaaaaaaajogwl6jnomflxqccnilvwvp2wrv6uwbnjzhsrac2l3vwz2onycrq",
+            "compartment-id": "ocid1.tenancy.oc1..*******************************************",
             "defined-tags": {
                 "Oracle-Tags": {
-                    "CreatedBy": "oracleidentitycloudservice/oracle@zconverter.com",
+                    "CreatedBy": "*******************************************",
                     "CreatedOn": "2022-04-14T06:18:25.373Z"
                 }
             },
@@ -114,7 +114,7 @@ def getCompartmentList(config, profile):
             "freeform-tags": {
                 "namespace": "ZConverter"
             },
-            "id": "ocid1.compartment.oc1..aaaaaaaal3amlmpi7axdzzfiuwrplkwehvmcl3yzxbsgrg2k7vio4ijntsma",
+            "id": "ocid1.compartment.oc1....*******************************************",
             "inactive-status": null,
             "is-accessible": null,
             "lifecycle-state": "ACTIVE",
@@ -244,18 +244,18 @@ def getVcnList(config, profile):
     - if VCN does not have any subnet, subnet list is empty ([]) 
     [
         {
-            "compartment-id": "ocid1.tenancy.oc1..aaaaaaaajogwl6jnomflxqccnilvwvp2wrv6uwbnjzhsrac2l3vwz2onycrq",
+            "compartment-id": "ocid1.tenancy.oc1...*******************************************",
             "display-name": "vcn-20210421-1418",
             "vcn-domain-name": "vcn04211421.oraclevcn.com",
-            "vcn_id": "ocid1.vcn.oc1.ap-seoul-1.amaaaaaankn436qaj3c3baihslzlwaipfaoptllofxjq6zgwvdhnkh3sxkcq",
+            "vcn_id": "ocid1.vcn.oc1.ap-seoul-1..*******************************************",
             "subnet": [
                 {
                     "display-name": "subnet-20210421-1418",
                     "security-list-ids": [
-                        "ocid1.securitylist.oc1.ap-seoul-1.aaaaaaaaovmcnnl5vpuh4d4ye247jszsaarc3lx7pjosyd7oyfml4nlpdvra"
+                        "ocid1.securitylist.oc1.ap-seoul-1.*******************************************","
                     ],
                     "subnet-domain-name": "subnet04211421.vcn04211421.oraclevcn.com",
-                    "subnet_id": "ocid1.subnet.oc1.ap-seoul-1.aaaaaaaaikxwifqksivdvnvl27k6mffo7cnvqv4xhw4rvcgjnc7yc7ydkc2q"
+                    "subnet_id": "ocid1.subnet.oc1.ap-seoul-1.*******************************************","
                 }
             ]
         },
@@ -308,11 +308,11 @@ def getInstanceInfo(config, profile):
     # case 1
     [
         {
-            "display_name": "win16zcmtest",
-            "id": "ocid1.instance.oc1.ap-seoul-1.anuwgljrnkn436qcwmkjvjaemqa6ee4amc6beugvxiviak3ee44f4g6jbe7q",
+            "display_name": "win-yj",
+            "id": "ocid1.instance.oc1.ap-seoul-1.*******************************************",",
             "lifecycle_state": "RUNNING",
             "region": "ap-seoul-1",
-            "publicip": "132.226.232.32"
+            "publicip": "***.***.***.***"
         }
     ]
     # case 2
@@ -364,11 +364,11 @@ def getInstanceInfo(config, profile):
 #     - lifecycle_state : PROVISIONING -> RUNNING -> STOPPING -> STOPPED -> TERMINATING -> TERMINATED
 #     [
 #         {
-#             "display_name": "win16zcmtest",
-#             "id": "ocid1.instance.oc1.ap-seoul-1.anuwgljrnkn436qcwmkjvjaemqa6ee4amc6beugvxiviak3ee44f4g6jbe7q",
+#             "display_name": "win-yj",
+#             "id": "ocid1.instance.oc1.ap-seoul-1.*********************",
 #             "lifecycle_state": "RUNNING",
 #             "region": "ap-seoul-1",
-#             "publicip": "132.226.232.32"
+#             "publicip": "***.***.***.***"
 #         }
 #     ]
 #     """
@@ -407,11 +407,11 @@ def getInstanceList(config, profile):
     - lifecycle_state : PROVISIONING -> RUNNING -> STOPPING -> STOPPED -> TERMINATING -> TERMINATED
     [
         {
-            "display_name": "Korea-Pub-ZCM",
-            "id": "ocid1.instance.oc1.ap-seoul-1.anuwgljrnkn436qclur6bhvengfx5q5s5k7ob5ctjv4twmbaobvsrxn7jgqq",
+            "display_name": "win-yj",
+            "id": "ocid1.instance.oc1.ap-seoul-1.**************************************",
             "lifecycle_state": "STOPPED",
             "region": "ap-seoul-1",
-            "publicip": "146.56.132.183"
+            "publicip": "***.***.***.***"
         },
         ...
     ]

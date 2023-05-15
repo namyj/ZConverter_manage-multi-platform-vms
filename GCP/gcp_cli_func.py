@@ -162,9 +162,9 @@ def getFirewallRuleList(account, project_id):
             "enable": false
             },
             "name": "zcon-demo-rule",
-            "network": "https://www.googleapis.com/compute/v1/projects/nm-project-356101/global/networks/default",
+            "network": "***************************************************************",
             "priority": 1000,
-            "selfLink": "https://www.googleapis.com/compute/v1/projects/nm-project-356101/global/firewalls/zcon-demo-rule",
+            "selfLink": "***************************************************************",
             "sourceRanges": [
             "0.0.0.0/0"
             ],
@@ -195,7 +195,7 @@ def getInstanceList(account, project_id):
             "name": "instance-yj",
             "status": "RUNNING",
             "zone": "asia-east1-b",
-            "publicip": "35.194.234.175"
+            "publicip": "***.***.***.***"
         },
         ...
     ]
@@ -234,7 +234,7 @@ def getInstanceInfo(account, project_id):
         "name": "yj-test",
         "status": "RUNNING",
         "zone": "asia-east1-b",
-        "publicip": "35.194.234.175"
+        "publicip": "***.***.***.***"
     }
     """
     try:

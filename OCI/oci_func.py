@@ -30,7 +30,7 @@ IN_RULE = [
     "source": "10.0.0.0/16"
   },
   {
-    "source": "218.145.116.162/32",
+    "source": "***.***.***.***/32", # must change
     "protocol": "6",
     "isStateless": True,
     "tcpOptions": {
@@ -41,7 +41,7 @@ IN_RULE = [
     }
   },
   {
-    "source": "218.145.116.162/32",
+    "source": "***.***.***.***/32", # must change
     "protocol": "6",
     "isStateless": True,
     "tcpOptions": {
@@ -52,7 +52,7 @@ IN_RULE = [
     }
   },
   {
-    "source": "218.145.116.162/32",
+    "source": "***.***.***.***/32", # must change
     "protocol": "6",
     "isStateless": True,
     "tcpOptions": {
